@@ -19,7 +19,7 @@ GPU computing is becoming a mainstream programming paradigm and in some cases GP
 
 ## Goals
 * Participants will be able to identify and explain OpenACC directives
-* Participants will be able to insert OpenACC directives to a program to run it on GPU
+* Participants will be able to add OpenACC directives to a program to run it on GPU
 * Participants will be able to identify different memory allocation modes
 
 ## Prerequisite
