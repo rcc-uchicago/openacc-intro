@@ -22,5 +22,8 @@ GPU computing is becoming a mainstream programming paradigm and in some cases GP
 * Participants will be able to insert OpenACC directives to a program to run it on GPU
 * Participants will be able to identify different memory allocation modes
 
+## Prerequisite
+Participants are expected to have an experience in C or Fortran programming. 
+
 ## Copyright
 Most of the slides and code are from [here](https://www.psc.edu/images/xsedetraining/OpenACC_Nov2017/OpenACC_Introduction_To_OpenACC.PDF). Please do not redistribute the material without permission from [John Urbanic](https://www.psc.edu/staff/urbanic).
