@@ -10,6 +10,6 @@ The `Makefile` can be used for `C` programs only and has the following targets:
 * `jacobi_acc_data`: to compile the `jacobi_acc_data.c` code to use data management directives of `OpenACC`
 * `clean`: removes all object and binary files.
 
-**NOTE**: To run the `Makefile` with a new target, please run `make clean` to make sure you have the correct object files.
+**NOTE**: Before running the `Makefile` with a new target, please run `make clean` to make sure you have the correct object files.
 
 The `submit_saxpy.batch` and `submit_jacobi.sbatch` files can be used to submit jobs to the `gpu` parition on Midway1.
