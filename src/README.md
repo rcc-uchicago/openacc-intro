@@ -3,7 +3,7 @@ before compiling the code.
 
 The `Makefile` can be used for `C` programs only and has the following targets:
 * `saxpy_acc`: to compile the `saxpy.c` code using `OpenACC` directives
-* `saxpy_cpu`: to compile the `saxpy.c` code **without** `OpenACC` directives
+* `saxpy_cpu`: to compile the `saxpy.c` code **without** `OpenACC` directives. You need to run `make TARGET=CPU saxypy_cpu`
 * `jacobi_serial`: to compile the `jacobi_serial.c` code to run on CPU
 * `jacobi_omp`: to compiel the `jacobi_omp.c` code to use `OpenMP` on CPU
 * `jacobi_acc`: to compile the `jacobi_acc.c` code to use `OpenACC` directives
@@ -12,4 +12,4 @@ The `Makefile` can be used for `C` programs only and has the following targets:
 
 **NOTE**: Before running the `Makefile` with a new target, please run `make clean` to make sure you have the correct object files.
 
-The `submit_saxpy.batch` and `submit_jacobi.sbatch` files can be used to submit jobs to the `gpu` parition on Midway1.
+The `submit_saxpy.batch` and `submit_jacobi.sbatch` files can be used to submit jobs to the `gpu2` parition on Midway.

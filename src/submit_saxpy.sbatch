@@ -2,9 +2,10 @@
 
 #SBATCH --job-name=test_gpu
 #SBATCH --output=saxpy.out
-#SBATCH --partition=gpu
+#SBATCH --partition=gpu2
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:30:00
+#SBATCH --reservation=openacc
 
 echo "job started at `date`"
 export PGI_ACC_TIME=1

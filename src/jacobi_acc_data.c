@@ -50,6 +50,7 @@ int main (int argc, char *argv[]){
 	    }
       // periodically print test values 
       if ((iteration % 100) == 0){
+//        #pragma acc update host(Temperature[ROWS-5:6][ROWS-5:6])
         #pragma acc update host(Temperature)
 	    track_progress (iteration);
       }
